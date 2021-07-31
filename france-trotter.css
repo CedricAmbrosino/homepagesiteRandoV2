@@ -1,0 +1,127 @@
+html{
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	background-color: #87CEEB;
+	padding:0px;
+	margin:0px;
+	font: normal normal 17px/24px Comic sans MS, Verdana, sans-serif;
+}
+
+#bandeau img,#en-tete img{
+	border: 1px solid black;
+}
+
+#bandeau {
+	background-color:#4682B4;
+	border-bottom: 3px solid black;
+}
+#bandeau p{
+	display:inline-block;
+	text-align:center;
+	margin: 10px 10px 10px 10px;
+}
+#bandeau img{
+	width:100px;
+	margin: 10px 10px 10px 10px;
+}
+a{
+	color:#E0FFFF;
+	text-decoration:none;
+}
+#en-tete{
+	background-color:#4682B4;
+	width:600px;
+	margin: 60px auto;
+	text-align:center;
+	border: 3px solid black;
+	border-radius: 20px;	
+}
+
+h1{
+	font-size: 25px;
+}
+
+.grdlettre{
+		font-size:60px;
+}
+	
+#en-tete-img img{
+	float:left;
+	clear:left;
+	margin: 10px;
+}
+
+#en-tete-img img:last-child{
+	float:right;
+	clear:right;
+	margin: 10px;
+}
+
+
+
+#corps-principal{
+	width: 800px;
+	margin: 20px auto;
+}
+
+#corps-principal img{
+	width: 300px;
+	position:relative;
+	left: 450px;
+	bottom: 20px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 12px black;
+	padding:0px;
+}
+
+#video{
+	width: 400px;
+	margin: 0px auto 20px auto;
+	
+}
+
+#separation img{
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+footer {
+	background-color:#4682B4;
+	border-top: 4px solid black;
+	padding:0px;
+	margin:0px;
+}
+footer p{
+	display:inline-block;
+	margin: 10px;
+}
+
+#bandeau p  a:hover{
+	background-color:RGBa(120,120,0,0.6);
+	border-radius:12px;
+}
+
+.sect-form{
+	padding:0px;
+	margin:0px;	
+}
+
+form{
+	width: 25%;
+	margin: 40px auto;
+}
+label, input{
+	display: block;
+	margin: 20px auto;
+}
+
+@media screen and (max-width:680px){
+	#titre-acc{
+		text-align: center;
+		font-size:23px;		
+	}
+}	
